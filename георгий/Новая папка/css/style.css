@@ -1,4 +1,4 @@
-*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+/* *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
     --bg-primary: #050505;
     --bg-secondary: #0a0a0a;
@@ -242,4 +242,4 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; } html { scroll-behavior: auto; } .reveal { opacity: 1; transform: none; } .hero__status-dot { animation: none; } .hero__scroll { animation: none; opacity: 0.2; } }
 @media (max-width: 480px) { .hero__title { font-size: clamp(2rem, 10vw, 3rem); } .hero__actions { flex-direction: column; width: 100%; max-width: 280px; } .hero__actions .btn { width: 100%; } .projects__grid { grid-template-columns: 1fr; } .skills__grid { grid-template-columns: 1fr; } .diary__grid { grid-template-columns: 1fr; } .contact__grid { grid-template-columns: 1fr; } }
 @media (max-width: 360px) { .hero__title { font-size: 1.8rem; } .hero__description { font-size: 0.85rem; } .btn { padding: 0.7rem 1.25rem; font-size: 0.85rem; } }
-@media (min-width: 769px) and (max-width: 1024px) { .projects__grid { grid-template-columns: repeat(2, 1fr); } .skills__grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 769px) and (max-width: 1024px) { .projects__grid { grid-template-columns: repeat(2, 1fr); } .skills__grid { grid-template-columns: repeat(2, 1fr); } } */
