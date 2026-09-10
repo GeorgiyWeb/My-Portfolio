@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" data-i18n-meta="meta_desc" content="Георгий Бериашвили — Junior Backend разработчик, специализирующийся на Python, Django, JavaScript и пути к Fullstack разработке.">
+    <meta name="keywords" data-i18n-meta="meta_kw" content="Георгий Бериашвили, Python, Django, JavaScript, Backend разработчик, Fullstack, Портфолио разработчика">
+    <meta name="author" data-i18n-meta="meta_author" content="Георгий Бериашвили">
+    <meta name="theme-color" content="#050505">
+    <meta property="og:title" data-i18n-meta="og_title" content="Георгий Бериашвили — Junior Backend разработчик">
+    <meta property="og:description" data-i18n-meta="og_desc" content="Георгий Бериашвили — Junior Backend разработчик, специализирующийся на Python, Django, JavaScript и пути к Fullstack разработке.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://georgiyweb.github.io">
+    <meta property="og:locale" content="ru_RU">
+    <title data-i18n-meta="page_title">Георгий Бериашвили — Junior Backend разработчик</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>G</text></svg>">
+</head>
+<body>
+    <div id="particles-bg" aria-hidden="true"></div>
+    <header class="navbar" id="navbar">
+        <nav class="nav container" aria-label="Основная навигация" data-i18n-aria="nav_aria">
+            <a href="#home" class="nav__logo">G<span class="nav__dot">.</span></a>
+            <ul class="nav__links" id="navLinks" role="menubar">
+                <li role="none"><a href="#home" class="nav__link" role="menuitem" data-i18n="nav_home">Главная</a></li>
+                <li role="none"><a href="#about" class="nav__link" role="menuitem" data-i18n="nav_about">Обо мне</a></li>
+                <li role="none"><a href="#skills" class="nav__link" role="menuitem" data-i18n="nav_skills">Навыки</a></li>
+                <li role="none"><a href="#projects" class="nav__link" role="menuitem" data-i18n="nav_projects">Проекты</a></li>
+                <li role="none"><a href="#journey" class="nav__link" role="menuitem" data-i18n="nav_journey">Путь</a></li>
+                <li role="none"><a href="#contact" class="nav__link nav__link--cta" role="menuitem" data-i18n="nav_contact">Контакты</a></li>
+                <li role="none" class="nav__lang-switcher">
+                    <button class="lang-switcher" id="langSwitcher" aria-label="Switch language">
+                        <span class="lang-switcher__knob">RU</span>
+                    </button>
+                </li>
+            </ul>
+                <button class="nav__hamburger" id="hamburger" aria-label="Открыть меню" data-i18n-aria="hamburger_open" aria-expanded="false">
+                <span class="hamburger__line"></span>
+                <span class="hamburger__line"></span>
+                <span class="hamburger__line"></span>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" id="home">
+            <div class="hero__content container">
+                <p class="hero__status" data-i18n="hero_status">
+                    <span class="hero__status-dot" aria-hidden="true"></span>
+                    Открыт к стажировкам и junior позициям
+                </p>
+                <h1 class="hero__title">
+                    <span class="hero__title-line" data-i18n="hero_first_name">Георгий</span>
+                    <span class="hero__title-line hero__title-line--accent" data-i18n="hero_last_name">Бериашвили</span>
+                </h1>
+                <h2 class="hero__subtitle" data-i18n="hero_role">Junior Backend разработчик</h2>
+                <p class="hero__tagline">
+                    Python • Django • JavaScript
+                </p>
+                <p class="hero__description" data-i18n="hero_desc">
+                    Создаю backend системы, изучаю чистую архитектуру и двигаюсь к fullstack разработке.
+                </p>
+                <div class="hero__actions">
+                    <a href="#projects" class="btn btn--primary" data-i18n="hero_cta_projects">Смотреть проекты</a>
+                    <a href="#contact" class="btn btn--outline" data-i18n="hero_cta_contact">Связаться</a>
+                </div>
+            </div>
+            <div class="hero__scroll" aria-hidden="true">
+                <span class="hero__scroll-line"></span>
+            </div>
+        </section>
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="about__grid">
+                    <div class="about__headline reveal">
+                        <h2 class="section__title" data-i18n="about_title">
+                            <span class="section__title-accent">Строю</span> свой путь к Fullstack.
+                        </h2>
+                        <div class="about__info-cards">
+                            <div class="info-card">
+                                <span class="info-card__number">18</span>
+                                <span class="info-card__label" data-i18n="about_age">Возраст</span>
+                            </div>
+                            <div class="info-card">
+                                <span class="info-card__icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                                </span>
+                                <span class="info-card__label">Python</span>
+                            </div>
+                            <div class="info-card">
+                                <span class="info-card__icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+                                </span>
+                                <span class="info-card__label" data-i18n="about_backend">Backend</span>
+                            </div>
+                            <div class="info-card">
+                                <span class="info-card__icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/></svg>
+                                </span>
+                                <span class="info-card__label">Django</span>
+                            </div>
+                            <div class="info-card">
+                                <span class="info-card__icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+                                </span>
+                                <span class="info-card__label" data-i18n="about_fullstack">Fullstack</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__text reveal">
+                        <p data-i18n="about_text1">Мне 18 лет. Моя цель — стать международным Fullstack-разработчиком (Python / Aiogram / Django + JS ).</p>
+                        <p data-i18n="about_text2">Я учусь, работаю и всё свободное время отдаю коду. Этот сайт — моя публичная точка А и часть пути от Junior-разработчика к Senior.</p>
+                        <p data-i18n="about_text3">Я развиваю технические навыки, изучаю архитектуру приложений, базы данных, clean code и постепенно двигаюсь к международному рынку.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section__title reveal" data-i18n="skills_title">
+                    <span class="section__title-accent">Технические</span> навыки
+                </h2>
+                <div class="skills__grid">
+                    <div class="skills__category reveal">
+                        <h3 class="skills__category-title" data-i18n="skills_backend">Backend</h3>
+                        <div class="skills__list">
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                                </span>
+                                <span class="skill-card__name">Python</span>
+                            </div>
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                                </span>
+                                <span class="skill-card__name">Django</span>
+                            </div>
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+                                </span>
+                                <span class="skill-card__name">Aiogram</span>
+                            </div>
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>
+                                </span>
+                                <span class="skill-card__name">FastAPI</span>
+                            </div>
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                                </span>
+                                <span class="skill-card__name">SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__category reveal">
+                        <h3 class="skills__category-title" data-i18n="skills_frontend">Frontend</h3>
+                        <div class="skills__list">
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                                </span>
+                                <span class="skill-card__name">JavaScript</span>
+                            </div>
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" y1="20" x2="15" y2="20"/><line x1="12" y1="4" x2="12" y2="20"/></svg>
+                                </span>
+                                <span class="skill-card__name">HTML5</span>
+                            </div>
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                                </span>
+                                <span class="skill-card__name">CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skills__category reveal">
+                        <h3 class="skills__category-title" data-i18n="skills_db">Базы данных и инструменты</h3>
+                        <div class="skills__list">
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+                                </span>
+                                <span class="skill-card__name">SQL</span>
+                            </div>
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 1v6m0 6v6m11-7h-6m-6 0H1m17.36-5.36l-4.24 4.24M6.88 17.12l-4.24 4.24m0-13.72l4.24 4.24m10.48 10.48l4.24 4.24"/></svg>
+                                </span>
+                                <span class="skill-card__name">SQLite</span>
+                            </div>
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 18l6-6-6-6"/><path d="M8 6l-6 6 6 6"/></svg>
+                                </span>
+                                <span class="skill-card__name">Git</span>
+                            </div>
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                                </span>
+                                <span class="skill-card__name">GitHub</span>
+                            </div>
+                            <div class="skill-card">
+                                <span class="skill-card__icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                                </span>
+                                <span class="skill-card__name" data-i18n="skills_backend_dev">Backend разработка</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title reveal" data-i18n="projects_title">
+                    <span class="section__title-accent">Избранные</span> проекты
+                </h2>
+                <div class="projects__grid" id="projectsGrid"></div>
+            </div>
+        </section>
+        <section class="journey section" id="journey">
+            <div class="container">
+                <h2 class="section__title reveal" data-i18n="journey_title">
+                    <span class="section__title-accent">Мой</span> путь
+                </h2>
+                <div class="journey__timeline reveal">
+                    <div class="timeline-item">
+                        <div class="timeline-item__dot"></div>
+                        <div class="timeline-item__content">
+                            <span class="timeline-item__date" data-i18n="journey_now">Сейчас</span>
+                            <h3 class="timeline-item__title" data-i18n="journey_age">18 лет</h3>
+                            <p class="timeline-item__desc" data-i18n="journey_desc1">Начало пути с страстью и решимостью.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item__dot"></div>
+                        <div class="timeline-item__content">
+                            <span class="timeline-item__date" data-i18n="journey_step1">Шаг 1</span>
+                            <h3 class="timeline-item__title" data-i18n="journey_step1_title">Изучение Backend</h3>
+                            <p class="timeline-item__desc" data-i18n="journey_step1_desc">Глубокое погружение в основы backend разработки.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item__dot"></div>
+                        <div class="timeline-item__content">
+                            <span class="timeline-item__date" data-i18n="journey_step2">Шаг 2</span>
+                            <h3 class="timeline-item__title" data-i18n="journey_step2_title">Python / Django</h3>
+                            <p class="timeline-item__desc" data-i18n="journey_step2_desc">Создание реальных приложений на Python и Django.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item__dot"></div>
+                        <div class="timeline-item__content">
+                            <span class="timeline-item__date" data-i18n="journey_step3">Шаг 3</span>
+                            <h3 class="timeline-item__title" data-i18n="journey_step3_title">Реальные проекты</h3>
+                            <p class="timeline-item__desc" data-i18n="journey_step3_desc">Создание и деплой проектов для реальных задач.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item__dot"></div>
+                        <div class="timeline-item__content">
+                            <span class="timeline-item__date" data-i18n="journey_step4">Шаг 4</span>
+                            <h3 class="timeline-item__title" data-i18n="journey_step4_title">Fullstack разработка</h3>
+                            <p class="timeline-item__desc" data-i18n="journey_step4_desc">Расширение в JavaScript, React/Vue и полные веб-приложения.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-item__dot"></div>
+                        <div class="timeline-item__content">
+                            <span class="timeline-item__date" data-i18n="journey_goal">Цель</span>
+                            <h3 class="timeline-item__title" data-i18n="journey_goal_title">Международный разработчик</h3>
+                            <p class="timeline-item__desc" data-i18n="journey_goal_desc">Стать международным Fullstack разработчиком над глобальными проектами.</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="journey__quote reveal" data-i18n="journey_quote">
+                    Я не пытаюсь сразу стать Senior. Я постепенно строю фундамент: пишу проекты, изучаю архитектуру, разбираю свои ошибки и постоянно улучшаю код.
+                </p>
+            </div>
+        </section>
+        <section class="diary section" id="diary">
+            <div class="container">
+                <h2 class="section__title reveal" data-i18n="diary_title">
+                    <span class="section__title-accent">Публичный</span> дневник разработчика
+                </h2>
+                <p class="diary__subtitle reveal" data-i18n="diary_subtitle">Мой публичный путь от точки А до международной разработки.</p>
+                <div class="diary__grid">
+                    <div class="diary-card reveal">
+                        <span class="diary-card__number">01</span>
+                        <h3 class="diary-card__title" data-i18n="diary_card1_title">Технические навыки</h3>
+                        <p class="diary-card__desc" data-i18n="diary_card1_desc">Реальный опыт, ошибки, код и разбор собственных решений.</p>
+                    </div>
+                    <div class="diary-card reveal">
+                        <span class="diary-card__number">02</span>
+                        <h3 class="diary-card__title" data-i18n="diary_card2_title">Дисциплина</h3>
+                        <p class="diary-card__desc" data-i18n="diary_card2_desc">Учёба, работа, кодинг и управление своим временем.</p>
+                    </div>
+                    <div class="diary-card reveal">
+                        <span class="diary-card__number">03</span>
+                        <h3 class="diary-card__title" data-i18n="diary_card3_title">Международный вектор</h3>
+                        <p class="diary-card__desc" data-i18n="diary_card3_desc">Путь к иностранным заказам, компаниям и международному Fullstack-рынку.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title reveal" data-i18n="contact_title">
+                    <span class="section__title-accent">Давайте</span> свяжемся
+                </h2>
+                <p class="contact__subtitle reveal" data-i18n="contact_subtitle">Открыт к стажировкам и junior позициям</p>
+                <div class="contact__grid reveal">
+                    <a href="mailto:georgiywebdev@gmail.com" class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="Email">
+                        <span class="contact-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </span>
+                        <span class="contact-card__label" data-i18n="contact_email">Email</span>
+                        <span class="contact-card__value">georgiywebdev@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/georgiy-beriashvili?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <span class="contact-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                        </span>
+                        <span class="contact-card__label">LinkedIn</span>
+                        <span class="contact-card__value">Georgiy Beriashvili</span>
+                    </a>
+                    <a href="https://t.me/g_brsh_13" class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                        <span class="contact-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 7.5a1.5 1.5 0 0 0 .15 2.775l3.9 1.3 1.8 5.625a1.125 1.125 0 0 0 1.95.3l2.1-3.3 4.35 3.108a1.5 1.5 0 0 0 2.325-.9l2.85-15a2.1 2.1 0 0 0-1.158-2.418z"/></svg>
+                        </span>
+                        <span class="contact-card__label" data-i18n="contact_telegram">Telegram</span>
+                        <span class="contact-card__value">@g_brsh_13</span>
+                    </a>
+                    <a href="https://wa.me/994703542728" class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <span class="contact-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                        </span>
+                        <span class="contact-card__label" data-i18n="contact_whatsapp">WhatsApp</span>
+                        <span class="contact-card__value">+994 70 354 27 28</span>
+                    </a>
+                    <a href="https://t.me/DexwellFullstackG" class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="Telegram канал">
+                        <span class="contact-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
+                        </span>
+                        <span class="contact-card__label" data-i18n="contact_telegram_channel">Telegram канал</span>
+                        <span class="contact-card__value">@DexwellFullstack</span>
+                    </a>
+                    <a href="https://github.com/GeorgiyWeb" class="contact-card" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <span class="contact-card__icon">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                        </span>
+                        <span class="contact-card__label">GitHub</span>
+                        <span class="contact-card__value">@GeorgiyWeb</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__content">
+            <div class="footer__info">
+                <h3 class="footer__name" data-i18n="footer_name">Георгий Бериашвили</h3>
+                <p class="footer__role" data-i18n="footer_role">Junior Backend разработчик</p>
+                <p class="footer__tech">Python • Django • JavaScript</p>
+            </div>
+            <div class="footer__socials">
+                <a href="https://github.com/GeorgiyWeb" class="footer__social" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <a href="https://www.linkedin.com/in/georgiy-beriashvili?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="footer__social" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </a>
+                <a href="https://t.me/g_brsh_13" class="footer__social" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-16.5 7.5a1.5 1.5 0 0 0 .15 2.775l3.9 1.3 1.8 5.625a1.125 1.125 0 0 0 1.95.3l2.1-3.3 4.35 3.108a1.5 1.5 0 0 0 2.325-.9l2.85-15a2.1 2.1 0 0 0-1.158-2.418z"/></svg>
+                </a>
+                <a href="https://wa.me/994703542728" class="footer__social" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                </a>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; <span id="currentYear">2026</span> <span data-i18n="footer_rights">Георгий Бериашвили. Все права защищены.</span></p>
+                <p data-i18n="footer_crafted">Создано на HTML, CSS и Vanilla JavaScript.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
